@@ -1,4 +1,4 @@
-# University Management app
+# STUDENT MANAGEMENT SYSTEM USING ASP.NET FRAMEWORK
 
 University Management  demonstrates how to use Entity Framework Core in an
 ASP.NET Core MVC web application.
