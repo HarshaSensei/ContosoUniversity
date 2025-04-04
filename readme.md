@@ -3,10 +3,28 @@
 University Management  demonstrates how to use Entity Framework Core in an
 ASP.NET Core MVC web application.
 
-## Build it from scratch
+**Abstract**
+The "Contoso University" project is a comprehensive Single Page Application (SPA) developed
+using ASP.NET Core MVC and Entity Framework Core. It is designed to emulate the
+operations of a university management system, showcasing a robust and scalable
+approach to web application development.
+The application features modules for managing “Courses”, “Instructors”, “Departments”,
+and “Students”, each accessible through an intuitive user interface. Users can perform
+CRUD (Create, Read, Update, Delete) operations on these entities seamlessly. The SPA
+platform integrates navigation and entity-specific actions into a unified experience,
+enhancing usability and accessibility.
+The project adheres to a clean architectural design, as seen in its structured solution
+explorer layout. Controllers, models, and Razor views are logically organized to ensure
+maintainability and scalability. Entity Framework Core is employed for database
+interactions, supporting migrations and facilitating data handlingKey highlights include:
+- “Courses Module”: Allows users to manage course details such as title, credits, and
+department affiliations.
+- “Instructors Module”: Provides tools for managing instructor records, including names,
+hire dates, office assignments, and associated courses.
+- “Departments Module”: Facilitates the management of department details, including
+budgets, administrators, and starting dates.
+- “Integrated SPA Interface”: Ensures smooth navigation and interaction within a single
+platform, improving user experience.
+The "Contoso University" project is ideal for demonstrating practical applications of modern web
+development frameworks. 
 
-You can build the application by following the steps in [a series of tutorials](https://docs.asp.net/en/latest/data/ef-mvc/intro.html).
-
-## Download it
-
-Download the [completed project](https://github.com/aspnet/Docs/tree/master/aspnetcore/data/ef-mvc/intro/samples/cu-final) from GitHub by downloading or cloning the [aspnet/Docs repository](https://github.com/aspnet/Docs) and navigating to `aspnetcore\data\ef-mvc\intro\samples\cu-final` in your local file system.  After downloading the project, create the database by entering `dotnet ef database update` at a command-line prompt. As an alternative you can use **Package Manager Console** -- for more information, see [Command-line interface (CLI) vs. Package Manager Console (PMC)](https://docs.microsoft.com/aspnet/core/data/ef-mvc/migrations#command-line-interface-cli-vs-package-manager-console-pmc).
